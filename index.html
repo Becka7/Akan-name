@@ -10,6 +10,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Kalam:wght@300&family=Merienda&family=Rokkitt:wght@200&family=Sawarabi+Mincho&display=swap" rel="stylesheet">
 </head>
 <body>
+    <script src="script.js"></script>
     <div>
         <a href="#dob"><button id="akan">Get  Akan </button></a>
     </div>
@@ -22,24 +23,34 @@
        
     </div>
        <div id="dob">
+        <h1>Are you curious??</h1>
+        
            <!-- <img id="fimage" src="/images/images-removebg-preview.png" alt=""> -->
            <div id ="myForm">
-            <form>
+            <form name="birthForm">
                 <label for="Date">Date</label><br></br>
 
-                <input type="int" placeholder="enter the date"><br></br>
-                <label for="Month">Month</label><br></br>
-                <input type="int" placeholder="enter the month"><br></br>
+                <input id="birthdate" name="birthdate" type="int" placeholder="enter the date"><br></br>
+                <label  for="Month">Month</label><br></br>
+                <input  id="birthmonth"type="int" placeholder="enter the month"><br></br>
                 <label for="Year">Year</label><br></br>
-                <input type="int" placeholder="enter the year"><br></br>
-            </br>
-                <button onclick="getDate()">Get Akan</button>
+                <input  id="birthyear"type="int" placeholder="enter the year"><br></br>
+                
+                <input id="male" type="radio" name="male" value="Male">
+                <label for="Male">Male</label><br></br>
+                
+                <input id="female" type="radio" name="Female" value="Female">
+                <label for="Female">Female</label>
+            
+                <button onclick="myFunction()">Get Akan</button>
             </form>
+            
            </div>
        
     </div>
     <div id="curious">
-        <h1>Are you curious??</h1>
+        
+      
         <h2>Find out the day you were born </h2>
 
          <div id="names">
@@ -57,7 +68,7 @@
         </ul>
 
        
-        <ul>
+        <ul id="two">
             <h2>Female</h2>
             <li>Sunday: Akosua</li>
 
@@ -74,6 +85,9 @@
             <li>Saturday: Ama</li>
         </ul>
         </div> 
+        <h3>Guess we can now call you...</h3>
+        <h3 id="akonName"></h3>
+      
 
 
 
