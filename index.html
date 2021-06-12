@@ -6,17 +6,43 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Akan names</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Kalam:wght@300&family=Merienda&family=Rokkitt:wght@200&family=Sawarabi+Mincho&display=swap" rel="stylesheet">
 </head>
 <body>
     <div>
-        <button id="akan">Get  Akan </button>
+        <a href="#dob"><button id="akan">Get  Akan </button></a>
     </div>
     <div id="intro">
         <img id="calender" src="/images/hands-with-magnifier-checking-calendar-magnifying-glass-date-day-flat-vector-illustration-time-planning_74855-13092-removebg-preview.png" alt="">
         <h1>Know your Akan name</h1>
         <h3>What is an Akan name</h3>
-        <p>Akan names are derived from Ghanian culture. Frequently in Ghana, children are given their first name as a 'day name' which corresponds to the day in the week they were born. Here are Ghanian day names.so by calculating your A kan name ,you get to know the day you were born.calculate your akan name and find out te nam you were born</p>
-        <div id="names">
+        <p>Akan names are derived from Ghanian culture.  Frequently in Ghana, children are given their first name as a 'day name' which corresponds to the day in the week they were born. Here are Ghanian day names.
+            so by calculating your A kan name ,you get to know the day you were born.calculate your akan name and find out the day you were born</p>
+       
+    </div>
+       <div id="dob">
+           <!-- <img id="fimage" src="/images/images-removebg-preview.png" alt=""> -->
+           <div id ="myForm">
+            <form>
+                <label for="Date">Date</label><br></br>
+
+                <input type="int" placeholder="enter the date"><br></br>
+                <label for="Month">Month</label><br></br>
+                <input type="int" placeholder="enter the month"><br></br>
+                <label for="Year">Year</label><br></br>
+                <input type="int" placeholder="enter the year"><br></br>
+            </br>
+                <button onclick="getDate()">Get Akan</button>
+            </form>
+           </div>
+       
+    </div>
+    <div id="curious">
+        <h1>Are you curious??</h1>
+        <h2>Find out the day you were born </h2>
+
+         <div id="names">
            
 
         <ul>
@@ -47,20 +73,9 @@
 
             <li>Saturday: Ama</li>
         </ul>
-        </div>
+        </div> 
 
-    </div>
-       <div id="dob">
-           <img id="fimage" src="/images/images-removebg-preview.png" alt="">
-        <form>
-            <label for="Date"></label></br>
-            <input type="int" placeholder="enter the date"></br>
-            <label for="Month"></label></br>
-            <input type="int" placeholder="enter the month"></br>
-            <label for="Year"></label></br>
-            <input type="int" placeholder="enter the year"></br>
-        </br>
-            <button>Get Akan</button>
-        </form>
+
+
     </div>
 </body>
