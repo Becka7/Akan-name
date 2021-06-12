@@ -14,16 +14,18 @@ function myFunction() {
 
     // document.getElementById("akonName").innerHTML = n;
 
-    var male=document.getElementById("male").value;
-    var female=document.getElementById("female").value;
+    var male = document.querySelector('input[name="male"]:checked').value;
+    var female = document.querySelector('input[name="female"]:checked').value;
+
+    // var female=document.getElementById("female").value;
     var maleAkans=[Kwasi,Kwado ,Kwabena ,Kwaku,Yaw ,Kofi,Kwame];
     var femaleAkans=[Akosua,Adwoa,Abenaa,Akua,Yaa,Afua,Ama];
-    if(male==null){
+    if(male==checked){
         alert("here")
-        // document.getElementById("akonName").innerHTML = femaleAkans[n];
-    }else if(female==null){
+        document.getElementById("akonName").innerHTML = femaleAkans[n];
+    }else if(female==checked){
         alert("here")
-        // document.getElementById("akonName").innerHTML = maleAkans[n];
+        document.getElementById("akonName").innerHTML = maleAkans[n];
     }
 
    
