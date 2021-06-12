@@ -9,3 +9,6 @@ body{
 #fimage{
     float: right;
 }
+#names{
+    display: flex;
+}
