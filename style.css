@@ -6,6 +6,7 @@ body{
 }  
 #calender{
     float:right;
+    margin-left: 5%;
 }
 #fimage{
     float: left;
@@ -35,7 +36,7 @@ form{
     /* background-color: magenta; */
     border-radius: 20px;
     margin-bottom: 20%;
-    margin-top: 5%;
+    margin-top: 0%;
 }
 input{
     border-radius: 20px;
@@ -65,6 +66,7 @@ h1{
     text-align: center;
     color: #2a9df4;
     margin-bottom: 3%;
+    margin-left: 3%;
 }
 
 h2{
@@ -75,7 +77,8 @@ h3{
     text-align: center;
 }
 p{
-    margin-top: 7%;
+    margin-top: 5%;
+    margin-left: 7%;
 }
 #myForm{
     box-shadow: 5px 5px 5px solid black;
