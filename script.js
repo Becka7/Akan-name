@@ -6,9 +6,23 @@ function myFunction() {
     var d = new Date( birthyear,birthmonth,birthday);
     var n = d.getDay();
 
-    // var femaleAkans=["Akosua","Adwoa","Abenaa","Akua","Yaa","Afua","Ama"]
+    var femaleAkans=["Akosua","Adwoa","Abenaa","Akua","Yaa","Afua","Ama"];
+    var maleAkans=["Kwasi","Kwado" ,"Kwabena ","Kwaku","Yaw" ,"Kofi","Kwame"];
 
     // document.getElementById("akonName").innerHTML = femaleAkans[n];
+    // document.getElementById("akonName").innerHTML = maleAkans[n];
+    if(document.getElementById("male").checked){
+        // alert("BECCCAAA")
+        document.getElementById("akonName").innerHTML = maleAkans[n];
+
+    }else if(document.getElementById("female").checked){
+        // alert("HEEYYY")
+        document.getElementById("akonName").innerHTML = femaleAkans[n];
+
+    }else if(document.getElementById("male").notchecked && document.getElementById("female").notchecked){
+        alert("You can only check one")
+    }
+}
 
 
 
@@ -19,9 +33,9 @@ function myFunction() {
 
     // var female=document.getElementById("female").value;
     
-    var maleAkans=[Kwasi,Kwado ,Kwabena ,Kwaku,Yaw ,Kofi,Kwame];
+    // var maleAkans=[Kwasi,Kwado ,Kwabena ,Kwaku,Yaw ,Kofi,Kwame];
 
-    var femaleAkans=[Akosua,Adwoa,Abenaa,Akua,Yaa,Afua,Ama];
+    // var femaleAkans=[Akosua,Adwoa,Abenaa,Akua,Yaa,Afua,Ama];
 
     // var gen=(document.getElementById("gender"));
     
@@ -29,15 +43,28 @@ function myFunction() {
     //     alert("here");
     // }
 
-    if(document.getElementById("male").checked){
-        alert("here")
-        document.getElementById("akonName").innerHTML = femaleAkans[n];
-    }else if(document.getElementById("Female").checked){
-        alert("here")
-        document.getElementById("akonName").innerHTML = maleAkans[n];
-    }
+
+
+
+
+
+//     if(document.getElementById("male").checked){
+//         alert("here")
+//         document.getElementById("akonName").innerHTML = femaleAkans[n];
+//     }else if(document.getElementById("Female").checked){
+//         alert("here")
+//         document.getElementById("akonName").innerHTML = maleAkans[n];
+//     }
 
    
 
 
+// // }
+// // myFunction()
+// function validateForm(){
+//     var x=document.forms["birthForm"]["birthdate"].value;
+//     if(x==""){
+//         alert("field must be filled");
+//         return false;
+//     }
 // }
