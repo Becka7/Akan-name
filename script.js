@@ -41,11 +41,3 @@ function myFunction() {
 
 
 // }
-// myFunction()
-function validateForm(){
-    var x=document.forms["birthForm"]["birthdate"].value;
-    if(x==""){
-        alert("field must be filled");
-        return false;
-    }
-}
