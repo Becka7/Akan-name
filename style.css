@@ -22,6 +22,7 @@ body{
     height:90vh;
     margin-top: 5%;
     text-align: center; 
+    margin-top: 7%;
 }
 form{
     float: left;
@@ -67,6 +68,7 @@ h1{
     color: #2a9df4;
     margin-bottom: 3%;
     margin-left: 3%;
+    margin-top: 7%;
 }
 
 h2{
